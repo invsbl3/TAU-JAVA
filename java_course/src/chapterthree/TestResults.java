@@ -1,5 +1,4 @@
 package chapterthree;
-
 import java.util.Scanner;
 
 public class TestResults {
@@ -10,8 +9,6 @@ public class TestResults {
         // else if == "if the anterior condition is false
         //              but this one is true, then  go ahead"
         // only the first condition reached is executed in the line!
-
-
         String grade = "";
         if (Double.MIN_VALUE < score && score < 0) {
             grade = "gotta woke up on the right side of the bed";

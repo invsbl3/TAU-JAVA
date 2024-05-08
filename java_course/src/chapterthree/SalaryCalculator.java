@@ -1,13 +1,10 @@
 package chapterthree;
-
+import java.util.Scanner;
 /*
 Multiple lines comment
 Everyone get a payment of $3000 a week.
 The ones that sale 10 or more get a bonus of $800
 */
-
-import java.util.Scanner;
-
 public class SalaryCalculator {
     public static void main(String args[]){
 

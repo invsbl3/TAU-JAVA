@@ -1,5 +1,4 @@
 package chapterthree;
-
 import java.util.Scanner;
 
 public class DollarGame {

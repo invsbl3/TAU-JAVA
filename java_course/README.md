@@ -22,7 +22,7 @@ First simple scripts.
   `==`, `.equals()`, `||` && `&&` (lol).
 
 ## Chapter Three
-Loopings... When to use:
+Conditioners... When to use:
 - `if` when there's only one path
 - `if, else` when there are two paths, but one condition to check
 - `if + (else if)'s` to execute the code in the `first` condition reached in the sequence
@@ -32,3 +32,11 @@ I also checked a bit more about `Double` documentation... never let the user put
 
 I also didn't use `nested if's` when teached, because I don't like nested if's. Instead, I used separated if's with Logical Operators...
 Which were mentioned in the last part of this chapter..
+
+## Chapter Four
+Loops...
+- `while`, `do while`, `for`
+- used `debug mode` with a `break point` to check some variable stored values and the logic working
+- Java `chars` are encoded with `UTF-16` and stored in `16-bits` unsigned variables.
+  I'm taking my time to read [this article](https://www.baeldung.com/java-char-encoding)
+- `"A"` is a `String`, and `'A'` is a `char`! Be aware!

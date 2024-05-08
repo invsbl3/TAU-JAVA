@@ -16,7 +16,7 @@ public class GrossPayCalculator {
 
         // 3. Multiply [hours] and [pay rate]
         double grossPay = hours * payRate;
-
+    double name_one = 2.5;
 
         // 4. Display result
         System.out.println("The employee's gross pay is $" +  grossPay);

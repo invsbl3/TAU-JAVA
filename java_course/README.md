@@ -40,3 +40,39 @@ Loops...
 - Java `chars` are encoded with `UTF-16` and stored in `16-bits` unsigned variables.
   I'm taking my time to read [this article](https://www.baeldung.com/java-char-encoding)
 - `"A"` is a `String`, and `'A'` is a `char`! Be aware!
+
+## Chapter Five
+Methods... 
+
+... They act as a `JS` or `Python` `function`.
+
+Declare a `method` this way:
+
+### The method's `header`:
+1. `access modifier`: who is allowed to use this method? `public`, `private`, `protected` 
+   if not specified, just `Classes` from the same `package` can access it.
+
+2. `non access modifiers` not every method require this.
+3. `return type`: which is the variable type your method returns ?
+     
+   Your `method` can only return `one single variable`.
+
+    3.1  `void` is used when the method won't return anything.
+
+
+4. `name`: in general, start with a `verb`. if the `return type == boolean`, use a `question` as the name, like `isTodayAColdDay`.
+start with a `lowercase` letter, and then, for each new word, start with `uppercase`.
+5. `inputs`: put inside parentesis the `parameters` with their `variable types`, separated by commas and inside a parenthesis, like this: `waterState(double temperature, double altitude, String planet)`
+
+### The method's `body`:
+1. after the header, put some code inside curly brackets `{ code here }`;
+2. the code should end with a `return variable`, and the `variable` in case should match the `variable type` declared in the method's `header`.
+3. nowadays IntelliJ tells you if there are variables declared and not used, and stuff like that, inside your method.
+   try to avoid use anything else than `necessary` to use the inputs to compute the `output` returned.
+
+### Variables in a `Class`
+It`s important to know about `global` and `static` variables since now.
+
+They are very util to be passed thourgh `methods` inside a `class`.
+
+

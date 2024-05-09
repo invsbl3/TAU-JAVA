@@ -11,7 +11,6 @@ public class RowDieGame {
         System.out.println("Game Started! \n You're with " + totalPoints + " now" +
                 "\n roll the dice!");
         Scanner scanner = new Scanner(System.in);
-
         int roll = 0;
         do {
             scanner.next();
@@ -20,9 +19,7 @@ public class RowDieGame {
             totalPoints += diceResult;
             if (totalPoints < 20) {
                 System.out.println("You rolled the dice " + (roll + 1) + " times and have " + totalPoints + " points now");
-
             }
-
             if (totalPoints > 20) {
                 System.out.println("You won!");
             }
@@ -31,7 +28,5 @@ public class RowDieGame {
         if (totalPoints < 20) {
             System.out.println("You lose!");
         }
-
     }
-
 }

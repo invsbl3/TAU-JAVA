@@ -71,8 +71,36 @@ start with a `lowercase` letter, and then, for each new word, start with `upperc
    try to avoid use anything else than `necessary` to use the inputs to compute the `output` returned.
 
 ### Variables in a `Class`
-It`s important to know about `global` and `static` variables since now.
+It's important to know about `global` and `static` variables since now.
 
-They are very util to be passed thourgh `methods` inside a `class`.
+They are very util to be passed through `methods` inside a `class`.
+
+## Chapter Six
+Classes and Objects!
+
+- put some general properties
+- constructors (Java makes an implicit one if you don't)
+- getters and setters
+- Instantiating Objects: an `Object` is an `instantiated` "thing" of a `Class`.
+- Encapsulating: controlling `access` through `methods` and `properties` of a `class`
+  - Making `private` any parameter inside a class and `public` any method used by "outsiders".
+  - Making a method `public` allows "outsiders" of the `package` to access.
+  - Using no `access modifiers` in your `methods` inside a `class` make them accessible only within the same `package`.
+
+### Accessing Methods:
+
+You can use the `methods` of a `Class` by and `Object` with `.`.
+Example:
+
+- The `Class Car` has a `method getNumberOfTyres()` to get the Number of tyres of this Vehicle
+  
+  - (you don't say???? Being literal is important to other people reading your code understand quikly the code. That's why!)
+  
+  -  So you Instantiate the `Class Car` creating an `Object myCar`, and can access the method to get the Number of Tyres like this:
+  - `myCar.getNumberOfTyres()`.
 
 
+- `static methods` can be accessed without `instantiate` an `object` of the `Class`. Check `Month` and `MonthConverter` in `src\chaptersix`
+
+
+- `Overload`: a `Class` can have `multiple methods` with the same `name`, if they have different `input parameters`.

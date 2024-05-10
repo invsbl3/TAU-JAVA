@@ -100,7 +100,17 @@ Example:
   - `myCar.getNumberOfTyres()`.
 
 
-- `static methods` can be accessed without `instantiate` an `object` of the `Class`. Check `Month` and `MonthConverter` in `src\chaptersix`
+- `static methods` can be accessed without `instantiate` an `object` of the `Class`. Check `Month` and `MonthConverter` in `src\chapter6`
 
 
 - `Overload`: a `Class` can have `multiple methods` with the same `name`, if they have different `input parameters`.
+
+
+## Chapter Seven
+Arrays...
+- Have fixed element's size, but you can change the elements.
+- They accept store just one single type of `Object`.
+- To have a dynamic size for your elements, use a `List < >`
+- To make searchs faster in an `Array` we can do a `binary search`, but we have to have a `sorted array` for this... So, whenever possible, we want to store a new data in an array already sorting it properly.
+  
+  Otherwise it seems that the `sorted` algorithm will have no advantage compared to a regular `sequential search` looping through each element once.

@@ -114,3 +114,23 @@ Arrays...
 - To make searchs faster in an `Array` we can do a `binary search`, but we have to have a `sorted array` for this... So, whenever possible, we want to store a new data in an array already sorting it properly.
   
   Otherwise it seems that the `sorted` algorithm will have no advantage compared to a regular `sequential search` looping through each element once.
+
+
+## Chapter Eight
+
+- There are 'Object' types to 'wrapper' primitive data types, so you can use convenientement some 'methods' within.
+- 'Strings' are 'Arrays' of 'chars']
+
+
+I tried to make a little program with some `String Functionalities`...
+
+... And organized the project in Classes, to train well.
+
+**IMPORTANT DETAIL**
+- Complex passwords are NOT NECESSARILY good strong passwords, and vice-versa.
+- A little innocent phrase with 40 letters is stronger than any 12 aleatory chars password. And easier to remember.
+- So I recommend you to just use this software here as a joke.
+- Besides a lot of BIG COMPANIES are still having bad UI/UX practices forcing users to choose a password they will forget in the next day...
+- Reset an account's password from inside is a bigger security flaw than a single user bad password!
+- So, remember: `thisBadAleatoryWordsTogether` is **STRONGER** than `tlkM9gGO7Ixq`, nobody would notice this could be your password and you will remember for your life easily.
+  - no, that's not my password, folks!

@@ -1,6 +1,6 @@
 package chapter8.resources;
 
-import chapter8.TextProcessor;
+import static chapter8.TextProcessor.scanner;
 
 public class FirstMenu {
 
@@ -48,7 +48,7 @@ public class FirstMenu {
                   Put a ~S I M P L E~ text here
                   we're gonna make some magic for you:
                 """);
-        TextProcessor.scanner.nextLine();
-        return TextProcessor.scanner.nextLine();
+        scanner.nextLine();
+        return scanner.nextLine();
     }
 }

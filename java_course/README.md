@@ -134,3 +134,39 @@ I tried to make a little program with some `String Functionalities`...
 - Reset an account's password from inside is a bigger security flaw than a single user bad password!
 - So, remember: `thisBadAleatoryWordsTogether` is **STRONGER** than `tlkM9gGO7Ixq`, nobody would notice this could be your password and you will remember for your life easily.
   - no, that's not my password, folks!
+
+## Chapter Nine
+### Inheritance...
+- It's an `is a` relationship between `classes`.
+- A `subclass` is a class that inherits any characteristics from a `superclass`.
+- `subclass = child`, `superclass = parent`.
+- `constructors`, `private methods` and `private fields` are not `inherited`
+- `final methods` are `inherited`, but **cannot** be `overriden`
+
+
+### Example:
+- A class `person` has the some `atributes`: `name`, `age`.
+- A class `employee` has these atributes an one more: `name`, `age`, `function`.
+- So a `employee` **is a** `person` and `inherits` the atributes of a `person`.
+- To create a `subclass` that's going to `inherit`, use `extends`:
+    - `class Employee extends Person`.
+
+When you initialize a `subclass`, it actually, first calls the `constructor` of the `superclass`.
+
+If you want to call a `non-default constructor` of the `superclass`, you can use `super(args[])` inside the constructor of the `subclass`.
+
+### Important about `constructors`:
+- Java set a `default` constructor for a `class` when you don't explicit write one.
+- But, if you make a `non-default constructor` (one that has some `inputs`), `Java` won't make the `default constructor`...
+    - So, in this case, if a `subclass` have a `default constructor` and the `superclass` does not, you'll get an error if not specify in the `subclass constructor` some `super(args)` to call a `non-default` constructor.
+
+### Overriding...
+
+- `@Override`: when a `subclass` has a method with same `signature` ( `output type`, `name`, `inputs`) as it's `superclass`, but a different implementation.
+- you can use `@Override` to warn users about this and to guarantee that you really overrided a `superclass`'s method.. without making a spell mistake or some other...
+- the `access modifier` of the `@overrided` method in the `subclass` can be the `same` or `less restricted`. 
+
+### Overloading...
+- When a `method` with `same name` but `different inputs` is present in a `subclass`.
+- With this method's name, you can access from a `subclass`'s `Object` both of the `methods`
+- But you can only access one of them by the `superclass`.

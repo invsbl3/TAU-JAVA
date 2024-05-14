@@ -66,3 +66,17 @@ Version Control Systems...
 
 - There's a `git` submenu right-clicking in a `folder`, `package`, `class`, etc...
 - I'm going to `commit` and `push` *now* from this `submenu` instead of using the `git bash`.
+
+## Chapter Eleven
+
+- Search Menu: `Classes`, `Files`, `Symbols`, `Actions`
+- Local History: to check changes
+- `TODO` and `javadoc` comment sections.
+
+## Chapter Twelve
+
+- IDE `major` and `minor` updates.
+
+## Completed
+
+My (Certificare Of Completion)[https://testautomationu.applitools.com/certificate/?id=3444456e] :D

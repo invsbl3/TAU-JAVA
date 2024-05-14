@@ -19,7 +19,6 @@ public class InheritanceTester {
         Mother mother = new Mother();
         // to create an employee we have to start first a `person`...
         // to create a mother -> woman -> person -> object
-
         printChainInheritanceFields(employee);
         printChainInheritanceFields(mother);
 
@@ -28,8 +27,6 @@ public class InheritanceTester {
 
         printChainInheritanceFields(birthdayCake);
         printChainInheritanceFields(weddingCake);
-
-
     }
 
     public static void printChainInheritanceFields(Object object) {
@@ -75,7 +72,6 @@ public class InheritanceTester {
         System.out.print(spaces + "------------------------------------------------------------------------------------------------------\n");
         pressEnterToContinue();
     }
-
 
     public static void pressEnterToContinue() {
         System.out.println("Press Enter key to continue...");

@@ -170,3 +170,49 @@ If you want to call a `non-default constructor` of the `superclass`, you can use
 - When a `method` with `same name` but `different inputs` is present in a `subclass`.
 - With this method's name, you can access from a `subclass`'s `Object` both of the `methods`
 - But you can only access one of them by the `superclass`.
+
+
+## Chapter Ten
+
+### Polymorphism...
+
+- You can instantiate an `Object` from a `superclass` as a `subclass`, like this: `Animal sasha = new Dog();`
+- But in this case `sasha` can't use `methods` from the `subclass Dog`.
+  - You can use a `cast` to overcome this: `((Cat) sasha).scratch;
+- `sasha` is an `Animal`, so you can turn it into a `cat`, even after instantiate it as a `dog`, like this:
+    ```
+    Animal sasha = new Dog();
+    sasha = new Cat(); 
+    ```
+- The `polymorphic` object will execute the `subclass' overridden method` when there's one.
+  - `sasha.makesound() ->  "meow"`
+
+## Chapter Eleven
+
+### Abstraction...
+
+- An `abstract class` is created to give a `shape` its `subclasses` should follow.
+- For example, a `shape` has `area` and `perimeter`, besides the ways to calculate these two varies depending on the `shape` itself.
+
+Example:
+- So we can create an `abstract class Shape` with `methods` `calculateArea` and `calculatePerimeter`
+  - And then `Rectangle` extends `shape`, so it `@Overrides` these two methods with an implementation to calculate the Area and Perimeter that serves for a `Rectangle`.
+  - And then the `class Circle` extends `shape` too, but has its own way to implement the `perimeter` and `area`.
+
+### Interfaces
+
+- They cannot be `instantiated`, an a `subclass` will `implement` its `interface`, not `extend`.
+- A `class` that `implements` an `interface` should implement all of its methods, otherwise should be declared as `abstract`
+- The methods inside a `interface` should be `abstract` or `default`
+- The `default` gives a standard implementation that any `subclass` has. it can be `overrided`.
+  It was created so one can modify the `interface` without mess with all its `implementations`.
+
+
+## Chapter Twelve
+
+Collections...
+
+- `Set`: only one `Class` allowed, unordered elements.
+- `List`: only one `Class` allowed, ordered elements.
+- `Queue`: FIFO. First element of the queue is the `head`, which is removed when `queue.remove()`. `queue.peek()` returns the `head` element.
+- `Map`: unordered key-value pairs. Unique `keys`, `values` can be equal.

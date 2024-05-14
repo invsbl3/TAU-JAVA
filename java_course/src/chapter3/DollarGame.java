@@ -2,7 +2,7 @@ package chapter3;
 import java.util.Scanner;
 
 public class DollarGame {
-    public static void main(String args[]) {
+    public static void main(String[] args) {
 
         String[] coinTypes = {"pennies", "nickels", "dimes", "quarters"};
         int[] coinValues = {1, 5, 10, 25};

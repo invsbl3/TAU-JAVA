@@ -23,13 +23,8 @@ public class AddNumbers {
             String answer = scanner.next();
             //String[] positiveAnswers = {"","","","",""};
             Set<String> positiveAnswers = Set.of("yes", "ok", "right", "1", "true", "fine", "yup");
-            if (positiveAnswers.contains(answer))
             //if ( Arrays.stream(positiveAnswers).anyMatch(answer::equals) )
-            {
-                again = true;
-            } else {
-                again = false;
-            }
+            again = positiveAnswers.contains(answer);
         } while (again);
         System.out.println("Ok, see you next time!");
         scanner.close();

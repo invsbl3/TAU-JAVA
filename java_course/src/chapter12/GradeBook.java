@@ -62,7 +62,7 @@ public class GradeBook {
 
     }
 
-    public static void printMap(Map map) {
+    public static void printMap(Map<String, Double> map) {
         String formatS = "%-15s%.2f\n";
         System.out.println();
         System.out.printf("%-15s%s\n", "Student", "Grade");

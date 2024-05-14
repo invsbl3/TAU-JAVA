@@ -80,10 +80,14 @@ public class PasswordValidator {
 
         // not good practice switch with 1 case, but this printer maybe
         // would receive more cases!
+        /*
         return switch (numberBoolean){
             case 1 -> "x";
             default -> " ";
         };
+        */
+        if (numberBoolean == 1) {return "x";}
+        else {return " ";}
     }
 }
 

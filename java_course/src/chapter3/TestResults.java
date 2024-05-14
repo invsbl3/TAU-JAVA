@@ -2,7 +2,7 @@ package chapter3;
 import java.util.Scanner;
 
 public class TestResults {
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter your test score:");
         double score = scanner.nextDouble();
@@ -58,9 +58,6 @@ public class TestResults {
                 message = "Something strange is ocurring, be careful and wise with this code";
                 break;
         }
-        ;
         System.out.println(message);
     }
-
-    ;
-};
+}

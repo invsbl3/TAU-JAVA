@@ -44,7 +44,7 @@ public class LotteryTicket {
         else return false;
     }
 
-    public static void printTicket(int ticket[]) {
+    public static void printTicket(int[] ticket) {
         System.out.print("\n");
         System.out.print(" | ");
         for (int i = 0; i < LENGTH; i++) {

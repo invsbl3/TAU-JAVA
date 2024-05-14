@@ -2,7 +2,7 @@ package chapter2;
 import java.util.Scanner;
 
 public class SomeCoffeeStuff {
-    public static void main(String args[]){
+    public static void main(String[] args){
         System.out.println("Tell me an adjective: ");
         Scanner scanner = new Scanner(System.in);
         String adjective = scanner.nextLine();
@@ -14,7 +14,7 @@ public class SomeCoffeeStuff {
         if (notWinter.equals("winter") || notWinter.equals("Winter")){
             System.out.println("I said not winter");
         } else{
-            System.out.printf("On a %s %s day, I drink a minimum of %i cups of coffee.", adjective, notWinter, wholeNumber);
-        };
-    };
-};
+            System.out.printf("On a %s %s day, I drink a minimum of %d cups of coffee.", adjective, notWinter, wholeNumber);
+        }
+    }
+}

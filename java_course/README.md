@@ -22,7 +22,7 @@ First simple scripts.
   `==`, `.equals()`, `||` && `&&` (lol).
 
 ## Chapter Three
-Conditioners... When to use:
+### Conditioners... When to use:
 - `if` when there's only one path
 - `if, else` when there are two paths, but one condition to check
 - `if + (else if)'s` to execute the code in the `first` condition reached in the sequence
@@ -34,7 +34,7 @@ I also didn't use `nested if's` when teached, because I don't like nested if's. 
 Which were mentioned in the last part of this chapter..
 
 ## Chapter Four
-Loops...
+### Loops...
 - `while`, `do while`, `for`
 - used `debug mode` with a `break point` to check some variable stored values and the logic working
 - Java `chars` are encoded with `UTF-16` and stored in `16-bits` unsigned variables.
@@ -42,7 +42,7 @@ Loops...
 - `"A"` is a `String`, and `'A'` is a `char`! Be aware!
 
 ## Chapter Five
-Methods... 
+### Methods... 
 
 ... They act as a `JS` or `Python` `function`.
 
@@ -76,7 +76,7 @@ It's important to know about `global` and `static` variables since now.
 They are very util to be passed through `methods` inside a `class`.
 
 ## Chapter Six
-Classes and Objects!
+### Classes and Objects!
 
 - put some general properties
 - constructors (Java makes an implicit one if you don't)
@@ -107,7 +107,7 @@ Example:
 
 
 ## Chapter Seven
-Arrays...
+### Arrays...
 - Have fixed element's size, but you can change the elements.
 - They accept store just one single type of `Object`.
 - To have a dynamic size for your elements, use a `List < >`
@@ -126,7 +126,7 @@ I tried to make a little program with some `String Functionalities`...
 
 ... And organized the project in Classes, to train well.
 
-**IMPORTANT DETAIL**
+### **IMPORTANT DETAIL**
 - Complex passwords are NOT NECESSARILY good strong passwords, and vice-versa.
 - A little innocent phrase with 40 letters is stronger than any 12 aleatory chars password. And easier to remember.
 - So I recommend you to just use this software here as a joke.
@@ -194,7 +194,7 @@ If you want to call a `non-default constructor` of the `superclass`, you can use
 - An `abstract class` is created to give a `shape` its `subclasses` should follow.
 - For example, a `shape` has `area` and `perimeter`, besides the ways to calculate these two varies depending on the `shape` itself.
 
-Example:
+### Example:
 - So we can create an `abstract class Shape` with `methods` `calculateArea` and `calculatePerimeter`
   - And then `Rectangle` extends `shape`, so it `@Overrides` these two methods with an implementation to calculate the Area and Perimeter that serves for a `Rectangle`.
   - And then the `class Circle` extends `shape` too, but has its own way to implement the `perimeter` and `area`.
@@ -210,9 +210,17 @@ Example:
 
 ## Chapter Twelve
 
-Collections...
+### Collections...
 
 - `Set`: only one `Class` allowed, unordered elements.
 - `List`: only one `Class` allowed, ordered elements.
 - `Queue`: FIFO. First element of the queue is the `head`, which is removed when `queue.remove()`. `queue.peek()` returns the `head` element.
 - `Map`: unordered key-value pairs. Unique `keys`, `values` can be equal.
+
+## Chapter Thirteen
+### Handling Exceptions...
+- using `try` and `catch`
+
+
+## Chapter Fourteen
+Did a Coin Game and received the [Certificate Of Completion](https://testautomationu.applitools.com/certificate/?id=7d508a3e) :D

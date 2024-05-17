@@ -1,3 +1,5 @@
+package test_annotations;
+
 import org.testng.Assert;
 import org.testng.asserts.SoftAssert;
 import org.testng.annotations.*;

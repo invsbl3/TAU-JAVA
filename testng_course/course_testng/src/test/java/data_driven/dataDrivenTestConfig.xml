@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+    <test name="chrome">
+        <parameter name="BrowserType" value="Google Chrome"/>
+        <classes>
+            <class name="data_driven.DataDrivenTest"/>
+        </classes>
+    </test>
+
+    <test name="edge">
+        <parameter name="BrowserType" value="Edge"/>
+        <classes>
+            <class name="data_driven.DataDrivenTest"/>
+        </classes>
+    </test>
+
+
+
+</suite> <!-- Suite -->

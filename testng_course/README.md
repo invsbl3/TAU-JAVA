@@ -64,7 +64,7 @@ Check [it out](https://testng.org/annotations.html)
 ### Groups Attribute
 - to make easier to construct various types of tests that use some `methods` in common, we can `flag` the `methods` for each `test setup` we create.
 
--`smoke test`: to assure the most important `functions` of an `application` are working after `build`
+- `smoke test`: to assure the most important `functions` of an `application` are working after `build`
 
 - `dependsOnGroups` can be used.
 
@@ -77,3 +77,26 @@ Check [it out](https://testng.org/annotations.html)
 - One can `<include />` or `<exclude />` groups in a test.
 
 - If a test is in at the same time in a group `included` and in a group `excluded` in a `TestNG xml`, it won't run in the test!
+
+## Chapter Eight
+### Data Driven Testing
+
+- use `@DataProvider` in the method that provides data to a `@Test`.
+- use `@Test (dataProvider = "method")` in the Test Method to use the data provided:
+- Warning: probably, by my tests, all the fields of the object provided should be used as input for a test!
+
+- one can make a `Data Provider Class`, that has no annotations...
+- but the methods in the `DP Class` that serves as `DP`s should be in the format `public static outputType @DataProvider methodName`.
+- if a `method` inside a `test Class` is going to use data provided by a method in other class (like a `data provider Class`) it should express it: `@Test (dataProviderClass = DP.class , dataProvider = "methodProviding")`
+
+- I made a `DP` class with `@DataProvider` method, used a `webdriver` to open a webpage and tested some loggins in it.
+
+## Chapter Nine
+
+- used the `TestNG xml` to make the same test with different browsers, with `@Parameters` annotation.
+
+
+## Certificate of Completion
+
+Finished! Excellent instructor. Super course.
+My [Certificate](https://testautomationu.applitools.com/certificate/?id=25ee2703)

@@ -27,10 +27,21 @@ public class HomePage {
         clickLink("Hovers");
         return new HoversPage(driver);
     }
-
+    public KeyPressesPage clickKeyPresses(){
+        clickLink("Key Presses");
+        return new KeyPressesPage(driver);
+    }
     public ForgotPasswordPage clickForgotPassword() {
         clickLink(ForgotPasswordPage.linkText);
         return new ForgotPasswordPage(driver);
+    }
+    public HorizontalSliderPage clickHorizontalSlider(){
+        clickLink("Horizontal Slider");
+        return new HorizontalSliderPage(driver);
+    }
+    public AlertsPage clickJavaScriptAlerts(){
+        clickLink("JavaScript Alerts");
+        return new AlertsPage(driver);
     }
 
     public void clickLink(String linkText) {

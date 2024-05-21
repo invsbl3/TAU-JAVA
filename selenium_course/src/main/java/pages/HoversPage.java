@@ -9,7 +9,7 @@ import java.util.List;
 
 public class HoversPage {
     private final WebDriver driver;
-    private By figureBox = By.className("figure");
+    private final By figureBox = By.className("figure");
     private By boxCaption = By.className("figcaption");
     public HoversPage(WebDriver driver){
         this.driver = driver;

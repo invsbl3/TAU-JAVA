@@ -26,3 +26,11 @@ Interacting with Elements (web-locator-course handles this).
 ## Chapter Five
 Advanced Interactions
 - working with `hover`
+
+## Chapter Six
+- Using `Keys` in input fields
+- Using `chords` to put keys in a sequence
+
+## Chapter Seven
+- `JS Alerts` won't appear in DOM. So we have to catch them in a different way.
+- Popups...

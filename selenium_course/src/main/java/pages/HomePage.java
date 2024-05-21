@@ -44,6 +44,24 @@ public class HomePage {
         return new AlertsPage(driver);
     }
 
+    public FileUploadPage clickFileUploadPage(){
+        clickLink("File Upload");
+        return new FileUploadPage(driver);
+    }
+
+    public ContextMenuPage clickContextMenuPage(){
+        clickLink("Context Menu");
+        return new ContextMenuPage(driver);
+    }
+    public DynamicLoadingPage clickDynamicLoadingPage(){
+        clickLink("Dynamic Loading");
+        return new DynamicLoadingPage(driver);
+    }
+
+    public WysiwygEditorPage clickWysiwygEditor(){
+        clickLink("WYSIWYG Editor");
+        return new WysiwygEditorPage(driver);
+    }
     public void clickLink(String linkText) {
         String searchString = "//a[contains(.,'" + linkText + "')]";
         driver.findElement(By.xpath(searchString)).click();

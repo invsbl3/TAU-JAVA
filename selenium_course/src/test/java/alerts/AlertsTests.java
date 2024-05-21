@@ -1,16 +1,9 @@
 package alerts;
-
 import base.BaseTest;
 import org.testng.annotations.Test;
-import pages.AlertsPage;
-
 import static org.testng.Assert.assertTrue;
 
 public class AlertsTests extends BaseTest {
-
-
-    ;
-
 
     @Test
     public void testAcceptAlert() {

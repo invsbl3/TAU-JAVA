@@ -33,4 +33,14 @@ Advanced Interactions
 
 ## Chapter Seven
 - `JS Alerts` won't appear in DOM. So we have to catch them in a different way.
-- Popups...
+- Uploading Files
+- Modals: when they are visible, you can only interact with them in the page. They are elements in the DOM, so don't need to change context to interact with them.
+- Selenium look for elements inside a `<html></html>` tag.
+
+## Chapter Eight
+- Editor inside frames are inside a sub `<html></html>` tag (the page have it's tag, and inside the page we have other to the editor)
+  - in order to access this data, we need to `change context`, it's like open another page, or switch to a `JS Alert` context.
+
+## Chapter Nine
+- `Wait` Strategies...
+- `FluentWait`

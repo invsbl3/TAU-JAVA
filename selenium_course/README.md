@@ -51,3 +51,19 @@ Advanced Interactions
 ## Chapter Eleven
 - Navigation
 - `selenium` treats `windows` and `tabs` as the same thing (it appears both of them got some common `code` type that can be a `hash diggest`, a `memory place` or some other `id`)
+
+# Chapter Twelve
+Taking Screenshots with Selenium
+
+# Chapter Thirteen
+Event Listeners...
+- `EventFiringWebDriver` is [deprecated](https://javadoc.io/doc/org.seleniumhq.selenium/selenium-support/4.2.1/org/openqa/selenium/support/events/EventFiringWebDriver.html)
+- The implementation changed over time, so instead of using the implementation present in the videos, follow [this](https://www.selenium.dev/blog/2023/java-removal-of-deprecated-events-classes/)
+
+# Chapter Fourteen
+Extras
+- `ChromeOptions` lets you set different conditions to the browser.
+- after `ChromeOptions options = new ChromeOptions();`, use `options.addArguments("--headless=new");` instead of `options.setHeadless(true)`, which is [deprecated](https://www.selenium.dev/blog/2023/headless-is-going-away/). This makes the browser run in background. It's faster.
+
+# Completion Certificate
+one extra [step](https://testautomationu.applitools.com/certificate/?id=c67a7634) :D

@@ -32,6 +32,6 @@ public class NavigationTests extends BaseTest {
 
         // im trying to figure out how to put this work into objects and connect them well
         // have to mature some concepts and practices here, but im getting on my way...
-        
+
     }
 }

@@ -5,6 +5,7 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import pages.HomePage;
+import utils.WindowManager;
 
 import java.time.Duration;
 import java.util.concurrent.TimeUnit;
@@ -12,6 +13,7 @@ import java.util.concurrent.TimeUnit;
 public class BaseTest {
     private WebDriver driver;
     protected HomePage homePage;
+
 
     @BeforeClass
     public void setUp(){
@@ -25,5 +27,8 @@ public class BaseTest {
     @AfterClass
     public void quitBrowser(){
         driver.quit();
+    }
+    public WindowManager getWindowManager(){
+        return new WindowManager(driver);
     }
 }

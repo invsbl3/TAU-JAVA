@@ -44,3 +44,10 @@ Advanced Interactions
 ## Chapter Nine
 - `Wait` Strategies...
 - `FluentWait`
+
+## Chapter Ten
+- Using `JS`
+
+## Chapter Eleven
+- Navigation
+- `selenium` treats `windows` and `tabs` as the same thing (it appears both of them got some common `code` type that can be a `hash diggest`, a `memory place` or some other `id`)

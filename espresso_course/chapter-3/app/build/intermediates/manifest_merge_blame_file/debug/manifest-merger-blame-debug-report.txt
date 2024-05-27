@@ -1,0 +1,66 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3~ Copyright (C) 2015 The Android Open Source Project
+4~
+5~ Licensed under the Apache License, Version 2.0 (the "License");
+6~ you may not use this file except in compliance with the License.
+7~ You may obtain a copy of the License at
+8~
+9~   http://www.apache.org/licenses/LICENSE-2.0
+10~
+11~ Unless required by applicable law or agreed to in writing, software
+12~ distributed under the License is distributed on an "AS IS" BASIS,
+13~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+14~ See the License for the specific language governing permissions and
+15~ limitations under the License.
+16-->
+17<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+18    package="com.example.android.testing.espresso.BasicSample"
+19    android:versionCode="1"
+20    android:versionName="1.0" >
+21
+22    <uses-sdk
+23        android:minSdkVersion="21"
+23-->C:\Users\Luan\Desktop\TAU\espresso_course\chapter-3\app\src\main\AndroidManifest.xml
+24        android:targetSdkVersion="34" />
+24-->C:\Users\Luan\Desktop\TAU\espresso_course\chapter-3\app\src\main\AndroidManifest.xml
+25
+26    <uses-permission android:name="android.permission.INTERNET" />
+26-->C:\Users\Luan\Desktop\TAU\espresso_course\chapter-3\app\src\main\AndroidManifest.xml:20:5-67
+26-->C:\Users\Luan\Desktop\TAU\espresso_course\chapter-3\app\src\main\AndroidManifest.xml:20:22-64
+27
+28    <application
+28-->C:\Users\Luan\Desktop\TAU\espresso_course\chapter-3\app\src\main\AndroidManifest.xml:21:5-36:19
+29        android:debuggable="true"
+30        android:icon="@drawable/ic_launcher"
+30-->C:\Users\Luan\Desktop\TAU\espresso_course\chapter-3\app\src\main\AndroidManifest.xml:22:9-45
+31        android:label="@string/app_name"
+31-->C:\Users\Luan\Desktop\TAU\espresso_course\chapter-3\app\src\main\AndroidManifest.xml:23:9-41
+32        android:testOnly="true"
+33        android:theme="@style/AppTheme" >
+33-->C:\Users\Luan\Desktop\TAU\espresso_course\chapter-3\app\src\main\AndroidManifest.xml:24:9-40
+34        <activity
+34-->C:\Users\Luan\Desktop\TAU\espresso_course\chapter-3\app\src\main\AndroidManifest.xml:25:9-33:20
+35            android:name="com.example.android.testing.espresso.BasicSample.MainActivity"
+35-->C:\Users\Luan\Desktop\TAU\espresso_course\chapter-3\app\src\main\AndroidManifest.xml:26:13-89
+36            android:exported="true"
+36-->C:\Users\Luan\Desktop\TAU\espresso_course\chapter-3\app\src\main\AndroidManifest.xml:27:13-36
+37            android:label="@string/app_name" >
+37-->C:\Users\Luan\Desktop\TAU\espresso_course\chapter-3\app\src\main\AndroidManifest.xml:28:13-45
+38            <intent-filter>
+38-->C:\Users\Luan\Desktop\TAU\espresso_course\chapter-3\app\src\main\AndroidManifest.xml:29:13-32:29
+39                <action android:name="android.intent.action.MAIN" />
+39-->C:\Users\Luan\Desktop\TAU\espresso_course\chapter-3\app\src\main\AndroidManifest.xml:30:17-69
+39-->C:\Users\Luan\Desktop\TAU\espresso_course\chapter-3\app\src\main\AndroidManifest.xml:30:25-66
+40
+41                <category android:name="android.intent.category.LAUNCHER" />
+41-->C:\Users\Luan\Desktop\TAU\espresso_course\chapter-3\app\src\main\AndroidManifest.xml:31:17-77
+41-->C:\Users\Luan\Desktop\TAU\espresso_course\chapter-3\app\src\main\AndroidManifest.xml:31:27-74
+42            </intent-filter>
+43        </activity>
+44        <activity android:name="com.example.android.testing.espresso.BasicSample.ShowTextActivity" />
+44-->C:\Users\Luan\Desktop\TAU\espresso_course\chapter-3\app\src\main\AndroidManifest.xml:34:9-101
+44-->C:\Users\Luan\Desktop\TAU\espresso_course\chapter-3\app\src\main\AndroidManifest.xml:34:19-99
+45    </application>
+46
+47</manifest>
